@@ -1,0 +1,6 @@
+{
+  "mcpServers": {
+    "postgres": { "command": "npx", "args": ["-y", "@example/postgres-mcp"] },
+    "browser": { "command": "npx", "args": ["-y", "@example/browser-mcp"] }
+  }
+}

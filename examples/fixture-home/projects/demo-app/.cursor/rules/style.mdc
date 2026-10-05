@@ -1,0 +1,6 @@
+---
+description: Code style
+alwaysApply: true
+---
+
+Use the project formatter. Prefer named exports. Keep functions under 40 lines.

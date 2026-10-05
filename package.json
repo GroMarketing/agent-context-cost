@@ -1,0 +1,52 @@
+{
+  "name": "agent-context-cost",
+  "version": "0.1.0",
+  "description": "See what is eating your AI coding agent's context window before you type anything: CLAUDE.md, skills, subagents, plugins, hooks and MCP tool schemas, ranked by token cost, with duplicates flagged and removal steps printed. Read-only, offline.",
+  "type": "module",
+  "bin": {
+    "agent-context-cost": "bin/agent-context-cost.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    ".claude-plugin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "context-window",
+    "context",
+    "tokens",
+    "token-usage",
+    "mcp",
+    "skills",
+    "subagents",
+    "claude-md",
+    "cursor",
+    "codex",
+    "gemini-cli",
+    "ai-agents",
+    "audit"
+  ],
+  "license": "MIT",
+  "author": "Ro Maldonado",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GroMarketing/agent-context-cost.git"
+  },
+  "homepage": "https://github.com/GroMarketing/agent-context-cost#readme",
+  "bugs": {
+    "url": "https://github.com/GroMarketing/agent-context-cost/issues"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "agent-context-cost",
+  "owner": { "name": "Ro Maldonado" },
+  "plugins": [{ "name": "context-cost", "source": "./", "description": "Rank what loads into every session (CLAUDE.md, skills, subagents, plugins, hooks, MCP schemas) by token cost, flag duplicates, and print removal steps. Read-only." }]
+}

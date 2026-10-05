@@ -1,0 +1,4 @@
+{
+  "acme-tools": { "source": { "source": "github", "repo": "example/acme-tools" } },
+  "old-market": { "source": { "source": "github", "repo": "example/old-market" } }
+}

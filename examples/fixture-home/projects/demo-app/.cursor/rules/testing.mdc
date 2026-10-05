@@ -1,0 +1,6 @@
+---
+globs: "**/*.test.ts"
+alwaysApply: false
+---
+
+Tests use the built-in runner. One behavior per test. No snapshot tests.

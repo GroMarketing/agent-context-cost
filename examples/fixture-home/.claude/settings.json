@@ -1,0 +1,18 @@
+{
+  "enabledPlugins": {
+    "doc-kit@acme-tools": true,
+    "lint-pack@acme-tools": false
+  },
+  "skillOverrides": {
+    "old-notes": "off"
+  },
+  "outputStyle": "terse",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [{ "type": "command", "command": "echo session-banner" }] }
+    ],
+    "PostToolUse": [
+      { "matcher": "Edit|Write", "hooks": [{ "type": "command", "command": "echo format" }] }
+    ]
+  }
+}

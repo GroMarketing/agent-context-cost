@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "plugins": {
+    "doc-kit@acme-tools": [
+      { "scope": "user", "installPath": "~/.claude/plugins/cache/acme-tools/doc-kit/1.2.0", "version": "1.2.0" }
+    ],
+    "lint-pack@acme-tools": [
+      { "scope": "user", "installPath": "~/.claude/plugins/cache/acme-tools/lint-pack/0.3.0", "version": "0.3.0" }
+    ]
+  }
+}
