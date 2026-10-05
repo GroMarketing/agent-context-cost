@@ -1,5 +1,7 @@
 # agent-context-cost
 
+<p align="center"><img src="https://raw.githubusercontent.com/GroMarketing/agent-context-cost/main/.github/social-preview.png" alt="agent-context-cost: Claude Code context window and token usage audit" width="100%"></p>
+
 Find out what is using your Claude Code context window (or Cursor's, Codex's or
 Gemini CLI's) before you type anything, and what each add-on costs you in tokens.
 
