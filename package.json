@@ -1,7 +1,7 @@
 {
   "name": "agent-context-cost",
-  "version": "0.1.0",
-  "description": "See what is eating your AI coding agent's context window before you type anything: CLAUDE.md, skills, subagents, plugins, hooks and MCP tool schemas, ranked by token cost, with duplicates flagged and removal steps printed. Read-only, offline.",
+  "version": "0.1.1",
+  "description": "Claude Code context window and token usage audit: see what your skills, subagents, plugins, CLAUDE.md and MCP servers cost before you type, ranked, with duplicates flagged and removal steps. Also Cursor, Codex, Gemini CLI. Read-only, offline.",
   "type": "module",
   "bin": {
     "agent-context-cost": "bin/agent-context-cost.mjs"
@@ -37,7 +37,12 @@
     "codex",
     "gemini-cli",
     "ai-agents",
-    "audit"
+    "audit",
+    "claude code usage",
+    "claude code cost",
+    "claude code context window",
+    "claude code token usage",
+    "reduce token usage"
   ],
   "license": "MIT",
   "author": "Ro Maldonado",

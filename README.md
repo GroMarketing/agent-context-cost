@@ -1,7 +1,7 @@
 # agent-context-cost
 
-Find out what is eating your coding agent's context window before you type
-anything, and what each add-on is costing you.
+Find out what is using your Claude Code context window (or Cursor's, Codex's or
+Gemini CLI's) before you type anything, and what each add-on costs you in tokens.
 
 Every CLAUDE.md, rule file, skill description, subagent description, output
 style and MCP server you install puts tokens into every session. They pile up

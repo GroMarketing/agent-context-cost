@@ -1,8 +1,16 @@
 {
   "name": "context-cost",
   "description": "See what is eating your context window before you type anything: CLAUDE.md, skills, subagents, plugins, hooks and MCP schemas ranked by token cost, with duplicates flagged and removal steps. Read-only.",
-  "version": "0.1.0",
-  "author": { "name": "Ro Maldonado" },
+  "version": "0.1.1",
+  "author": {
+    "name": "Ro Maldonado"
+  },
   "license": "MIT",
-  "keywords": ["context window", "tokens", "mcp", "skills", "claude-code"]
+  "keywords": [
+    "context window",
+    "tokens",
+    "mcp",
+    "skills",
+    "claude-code"
+  ]
 }
